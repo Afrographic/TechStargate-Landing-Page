@@ -1,0 +1,39 @@
+.clients {
+  background-color: #fff;
+  padding: 90px 0px;
+}
+
+h2,
+.desc {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.desc {
+  color: #5f5f5f;
+}
+
+.clients-list {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .clients-list {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 16px;
+  }
+}
+
+.clients-list img {
+  width: 200px;
+}

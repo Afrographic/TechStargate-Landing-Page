@@ -1,0 +1,37 @@
+<div class="header">
+  <div class="nav">
+    <img src="assets/images/logo.svg" alt="" class="logo" />
+    <div class="nav-links">
+      <div class="link" (click)="go_to_home()">Home</div>
+      <div class="link" (click)="go_to_about_us()">About Us</div>
+      <div class="link" (click)="go_to_expertise()">Expertise</div>
+      <div class="link" (click)="go_to_services()">Services</div>
+      <div class="link" (click)="go_to_career()">Career</div>
+      <div class="primary-btn" (click)="go_to_contact_us()">Contact Us</div>
+    </div>
+
+    <div class="nav-links-mobile">
+      <div class="primary-btn" (click)="go_to_contact_us()">Contact Us</div>
+      <img src="assets/images/menu.svg" alt="" (click)="toggleMenu()" />
+    </div>
+  </div>
+  <div class="title">
+    <ng-content></ng-content>
+    <div *ngIf="desc.length > 0" class="header-desc">{{ desc }}</div>
+  </div>
+</div>
+
+<!-- Mobile Nav BLoc -->
+<div class="mobile-nav" [class.inactive]="mobileMenuInactive">
+  <img src="assets/images/back.svg" alt="" width="24px" (click)="toggleMenu()" />
+  <div class="mobile-nav-list">
+    <div class="mobile-nav-item" (click)="go_to_home();toggleMenu();">Home</div>
+    <div class="mobile-nav-item" (click)="go_to_about_us();toggleMenu();">About Us</div>
+    <div class="mobile-nav-item" (click)="go_to_expertise();toggleMenu();">Expertise</div>
+    <div class="mobile-nav-item" (click)="go_to_services();toggleMenu();">Services</div>
+    <div class="mobile-nav-item" (click)="go_to_career();toggleMenu();">Career</div>
+    <div class="mobile-nav-item" (click)="go_to_contact_us();toggleMenu();">Contact Us</div>
+  </div>
+  <div class="f1"></div>
+  <img src="assets/images/logo_icon.svg" alt="" width="24px" />
+</div>

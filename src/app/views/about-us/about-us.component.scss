@@ -1,0 +1,137 @@
+.since {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0px;
+  align-items: center;
+}
+
+@media (max-width: 776px) {
+  .since {
+    width: 100% !important;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+  }
+
+  .left-bloc {
+    width: 100% !important;
+  }
+}
+
+.left-bloc {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.base {
+  line-height: 1.5em;
+  color: #5f5f5f;
+}
+
+.right-image {
+  width: 422px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #dddddd;
+  background-image: url(../../../assets/images/ts.svg);
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+}
+
+.strength,
+.philo {
+  padding: 90px 0px;
+}
+
+.philo {
+  padding-top: 0px;
+}
+
+.strength h2 {
+  text-align: center;
+}
+
+.strength-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.strength-item {
+  width: 342px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 767px) {
+  .strength-item {
+    width: 100% !important;
+  }
+  .strength-list {
+    flex-direction: column;
+  }
+}
+
+.strength-item img {
+  width: 56px;
+}
+
+.strength-title {
+  font-family: Geist-Medium;
+}
+
+.philo-list {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+@media (max-width:767px){
+  .philo-list {
+    flex-direction: column;
+    padding:32px;
+  }
+  .philo-item {
+    width:100% !important;
+  }
+}
+
+.philo-item {
+  width: 262px;
+  padding: 16px;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.top-cyan {
+  border-top: 4px solid #49e5b1;
+}
+
+.top-yellow {
+  border-top: 4px solid #e5d549;
+}
+
+.top-purple {
+  border-top: 4px solid #ba80d0;
+}

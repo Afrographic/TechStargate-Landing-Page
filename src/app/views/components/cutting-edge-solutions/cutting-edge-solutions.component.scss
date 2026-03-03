@@ -1,0 +1,87 @@
+.cutting-edge-solutions {
+  padding: 90px 0px;
+  padding-bottom: 0px !important;
+}
+
+h2,
+.desc {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.desc {
+  color: #5f5f5f;
+}
+ 
+.solutions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top:64px;
+}
+
+@media (max-width: 768px) {
+  .solutions {
+    display: flex !important;
+    flex-wrap: wrap;
+  
+  }
+
+  .solution-item {
+    width: 100%;
+  }
+}
+
+.solution-item {
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover !important;
+  background-position: center !important;
+  color:white;
+  font-size: 24px;
+}
+
+.ai {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/ai.jpg);
+}
+.web-enterprise {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/portals.jpg);
+}
+.web-mobile {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/apps.jpg);
+}
+.ecommerce {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/e-commerce.jpg);
+}
+.blockchain {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/blokchain.jpg);
+}
+.content-management {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/conten-doc.jpg);
+}
+.bigdata-business {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/big-data.jpg);
+}
+.computer-vision {
+  background:
+    linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+    url(../../../../assets/images/solutions/computer-vision.jpg);
+}

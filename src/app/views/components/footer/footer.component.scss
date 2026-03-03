@@ -1,0 +1,74 @@
+.logo {
+  width: 120px;
+}
+
+.footer {
+  background-color: #3d3c42;
+  font-size: 16px;
+  color: #b6b6b6;
+}
+.copyRight {
+  padding: 32px;
+  color: white;
+  background-color: #2d2c31;
+  text-align: center;
+}
+
+.links {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.links-bloc {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.socials img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.contact-item img {
+  width: 16px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.socials {
+  display: flex;
+  gap: 32px;
+}
+
+.link-item {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.link-item:hover {
+  color: var(--main_color);
+}
+
+.title {
+  color: white;
+}
+
+@media  (max-width: 768px) {
+  .links-bloc {
+    width: 100%;
+    padding:32px;
+  }
+  .links {
+    flex-wrap: wrap;
+  }
+}

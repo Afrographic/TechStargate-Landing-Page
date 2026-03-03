@@ -1,0 +1,113 @@
+.office-locations {
+  width: 775px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .office-locations {
+    width: 100%;
+  }
+}
+
+.title {
+  width: 100%;
+  padding: 32px;
+  background-color: #2dd5ff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.f-medium {
+  text-align: center;
+  font-family: Geist-Medium;
+  font-size: 24px;
+  padding: 16px;
+}
+
+.f-medium-2 {
+  text-align: left;
+  font-family: Geist-Medium;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.office-name {
+  color: #5f5f5f;
+  font-size: 18px;
+  text-align: center;
+}
+
+.how-to-start {
+  width: 807px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0px;
+}
+
+@media (max-width: 776px) {
+  .how-to-start {
+    width: 100%;
+  }
+
+  .how-to-start .base{
+    padding:16px;
+  }
+}
+
+.how-to-start h2 {
+  text-align: center;
+}
+
+.base {
+  line-height: 1.7em;
+  color: #5f5f5f;
+  text-align: center;
+}
+
+.how-item-text {
+  line-height: 1.7em;
+  color: #5f5f5f;
+  text-align: left;
+}
+
+.number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--main_color);
+}
+
+.how-list {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}  
+
+@media (max-width: 776px) {
+  .how-list {
+    flex-direction: column;
+    gap: 32px;
+    padding:32px;
+  }
+  .how-item{
+    width: 100% !important;
+  }
+}
+
+.how-item {
+  width: 290px;
+  display: flex;
+  gap: 12px;
+}
+
+.how-text-wrapper {
+  flex: 1;
+}

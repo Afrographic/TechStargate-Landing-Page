@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Geist-Black;
+  src: url("assets/fonts/Geist-Black.ttf");
+}
+@font-face {
+  font-family: Geist-Bold;
+  src: url("assets/fonts/Geist-Bold.ttf");
+}
+@font-face {
+  font-family: Geist-Regular;
+  src: url("assets/fonts/Geist-Regular.ttf");
+}
+@font-face {
+  font-family: Geist-Medium;
+  src: url("assets/fonts/Geist-Medium.ttf");
+}
+
+.font-medium {
+  font-family: Geist-Medium;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Geist-Regular;
+  box-sizing: border-box;
+}
+
+.title h1,
+.header-desc {
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .title h1,.header-desc {
+     width: 100%;
+  }
+  .header-desc{
+    padding:16px;
+  }
+  h1{
+    font-size:32px !important;
+    padding:0px 32px;
+  }
+}
+
+.header-desc {
+  line-height: 1.5em;
+}
+
+:root {
+  --main_color: #f37040;
+}
+
+.main_color {
+  color: var(--main_color);
+}
+
+.primary-btn {
+  background-color: var(--main_color);
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.primary-btn:hover {
+  background-color: #fff;
+  color: var(--main_color);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.inputItem {
+  border: 1px solid #9d9d9d;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
